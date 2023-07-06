@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif!important;  
+}
+
+html {
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/*NAVIGATION BAR */
+
+.navbar-rightalign {
+    background-color: aqua;
+    float: right!important;
+}
+
+.logo {
+    height: 75px;
+    margin: 5px;
+}
+
+.active {
+    border: 2px black solid; 
+}
+
+/* BANNER & HERO IMAGE */
+
+.hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 15%!important;
+    padding-bottom: 15%!important;
+    position: relative;
+    height: 90vh;
+}
+
+.hero-img-secondary-pages {
+    height: 50vh;
+    padding-top: 5%!important;
+    padding-bottom: 5%!important;
+}
+
+.fadeIn {
+    animation-delay: 0.5s;  
+}
+
+.banner {
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.display-1 {
+    font-weight:800!important;
+}
+
+.lead {
+    font-weight: 400!important;
+    font-size: 1.6em!important;
+    letter-spacing: .1em;
+}
+
+.phone-number {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    font-size: 1.25em;
+
+}
+
+/* ABOUT US */
+
+
+/* DESCRIPTION SECTION */
+
+h3 {
+    text-align: center;
+    font-weight: 300!important;
+}
+
+.second-hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description-header {
+    font-size: 1.5em;
+    letter-spacing: .1em;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    padding: 5em 2em 5em 2em;
+    font-size: 1.2em;
+    animation-delay: 0.5s;
+}
+
+
+.service-list {
+    margin-left: 20px;
+    word-wrap: normal;
+}
+
+/* CONTACT PAGE */
+
+.message-box {
+    height: 100px!important;
+    
+}
+
+/* FOOTER */
+
+footer {
+    padding: 2em;
+    background: black;
+    color: white;
+    text-align: center;
+}
