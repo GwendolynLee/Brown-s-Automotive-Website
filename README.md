@@ -1,2 +1,2 @@
 # Brown-s-Automotive-Website
-Website created from scratch with the help of Bootstrap.  
+Website with just HTML and CSS and help from Bootstrap.
